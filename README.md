@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Link
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://ahap13.github.io/apparel-coming-soon-page/)
 
 ## My process
 
