@@ -1,0 +1,157 @@
+body {
+  background: url("../images/bg-pattern-desktop.svg");
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 4.5% 11.5%;
+}
+header img {
+  width: 14.5%;
+}
+
+main {
+  color: hsl(0deg, 36%, 70%);
+}
+main img {
+  display: block;
+  float: right;
+  height: auto;
+  margin-top: -16.2%;
+  width: 42.5%;
+}
+
+.text-container {
+  margin: 4% 0 0 11.5%;
+  line-height: 1.1;
+  width: 30%;
+}
+.text-container h1 {
+  color: black;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 1rem;
+}
+.text-container h1 span {
+  color: hsl(0deg, 36%, 70%);
+  font-weight: 300;
+}
+.text-container p {
+  line-height: 1.75;
+  margin: -7% 0 0 0;
+}
+
+.form-container {
+  margin: 5% 0 0 11.5%;
+}
+.form-container button {
+  background: linear-gradient(135deg, hsl(0deg, 80%, 86%), hsl(0deg, 74%, 74%));
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 1rem 2rem 0rem hsl(0deg, 36%, 70%);
+  margin: -1.6% 0 0 -6.5%;
+  padding: 1.5% 3%;
+  position: absolute;
+}
+.form-container button:hover {
+  background: hsl(0deg, 80%, 86%);
+  cursor: pointer;
+}
+.form-container button img {
+  width: 0.7rem;
+}
+
+#email {
+  border: 1.5px solid hsl(0deg, 36%, 70%);
+  border-radius: 30px;
+  font-size: 1rem;
+  margin-top: -4%;
+  opacity: 0.5;
+  padding: 1.4% 2.5%;
+  width: 23.5rem;
+}
+#email:focus {
+  outline: none;
+}
+
+::-moz-placeholder {
+  color: hsl(0deg, 36%, 70%);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+:-ms-input-placeholder {
+  color: hsl(0deg, 36%, 70%);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+::placeholder {
+  color: hsl(0deg, 36%, 70%);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.error {
+  margin: -2.9% 0 0 21.2%;
+  position: absolute;
+  width: 1.5rem;
+}
+
+.error-message {
+  font-size: 0.8rem;
+  margin-left: 2.8%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@media (max-width: 375px) {
+  body {
+    background: linear-gradient(hsl(0deg, 0%, 100%), hsl(0deg, 100%, 98%));
+  }
+  header {
+    margin-bottom: 20%;
+    padding: 11% 10% 3%;
+  }
+  header img {
+    width: 31%;
+  }
+  main {
+    width: 100%;
+  }
+  main img {
+    content: url("../images/hero-mobile.jpg");
+    float: none;
+    width: 100%;
+  }
+  main .text-container {
+    text-align: center;
+    width: 83%;
+  }
+  main .text-container h1 {
+    font-size: 2.5rem;
+    margin: 4rem 0 3rem 0;
+  }
+  main .text-container p {
+    width: 103%;
+    font-size: 0.9rem;
+    margin: -7% 0 12% -3%;
+  }
+  main .form-container #email {
+    padding: 1rem;
+    width: 82%;
+  }
+  main .form-container button {
+    margin: -3.8% 0 0 -21%;
+    padding: 5.1% 9%;
+  }
+  main .form-container button img {
+    content: url("../images/icon-arrow.svg");
+  }
+  main .form-container .error {
+    content: url("../images/icon-error.svg");
+    margin: -11.7% 0 0 51%;
+    width: 2rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
