@@ -118,7 +118,7 @@ main {
 }
 
 // Mobile Version
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     body {
         background: linear-gradient($mobile-gradient1, $mobile-gradient2);
     }
